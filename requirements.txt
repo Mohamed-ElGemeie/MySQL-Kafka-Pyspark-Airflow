@@ -1,0 +1,9 @@
+mysql-connector-python
+wonderwords
+Faker
+numpy
+kafka-python
+pyspark
+requests
+pandas
+seaborn

@@ -1,0 +1,57 @@
+# start aiflow webserver
+airflow webserver -p 8080
+
+# start airflow scheduler
+airflow scheduler
+
+# add airflow user
+airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
+
+# log in wsl and pip install requirements
+wsl
+
+# make sure requirements.txt exists inside wsl
+python3 -m pip install -R requirements.txt
+
+# start the docker servers and python app
+docker-compose up -d
+
+# pip install
+C:\ProgramData\Anaconda3\python.exe -m pip install kafka-python==2.0.2
+
+# create database
+C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\create_db.py"
+
+# seed database
+C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\seed_db.py"
+
+# host database
+C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\host_twitter_backend.py"
+
+# run producer
+C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\kafka-produce-tweets.py"
+
+# run consumer
+C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\kafka-consumer.py"
+
+# run visualzes
+C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\create-visualzes"
+
+
+# inside kafka bash
+docker exec -it kafka bash
+
+# create topic
+kafka-topics --bootstrap-server kafka:9092  --create  --topic tweets
+
+# list topics
+kafka-topics --list --bootstrap-server kafka:9092
+
+# producer container
+docker exec -it kafka kafka-console-producer --bootstrap-server kafka:9092  --topic tweets
+
+# consumer container
+docker exec -it kafka kafka-console-consumer --bootstrap-server kafka:9092  --topic tweets --from-beginning
+
+# delete records by expire date
+docker exec -it kafka bin/kafka-configs.sh --alter --add-config retention.ms=10000 --bootstrap-server=0.0.0.0:9092 --topic purge-scenario && sleep 10
