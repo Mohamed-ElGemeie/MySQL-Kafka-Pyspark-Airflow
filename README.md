@@ -1,7 +1,7 @@
 <br />
 <h3 align="center">Titi bookstore manager</h3>
   <p align="center">
-    This is a bookstore/cafe transactions GUI manager app designed<br>for my mother's bookstore.
+    This is a Kafka and Pyspark pipline that utilizes a MySQL DB and Airflow for scheduling.
     <br />
     <br />
     <br />
