@@ -1,7 +1,7 @@
 <br />
-<h3 align="center">Titi bookstore manager</h3>
+<h3 align="center">Visualizing tabular data samples using big data tools</h3>
   <p align="center">
-    This is a Kafka and Pyspark pipline that utilizes a MySQL DB and Airflow for scheduling.
+    This is a Kafka and Pyspark pipline that utilizes a MySQL database and Airflow for scheduling.
     <br />
     <br />
     <br />
