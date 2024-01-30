@@ -34,7 +34,7 @@
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+[![Product Name Screen Shot](https://github.com/Mohamed-ElGemeie/MySQL-Kafka-Pyspark-Airflow-Pipeline/blob/main/assests/airflow.png?raw=true)](https://github.com/Mohamed-ElGemeie/MySQL-Kafka-Pyspark-Airflow-Pipeline/blob/main/assests/airflow.png?raw=true)
 
 This project simulates the distribution of tabular data samples across different mediums to be processed for visualization. The data was randomly self-generated in a MySQL database and passed through a Kafka topic, then through PySpark, and finally through some Pandas visualizations. All of these processes were scheduled hourly by Airflow.
 
