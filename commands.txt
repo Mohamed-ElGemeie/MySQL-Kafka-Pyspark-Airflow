@@ -1,44 +1,27 @@
-# start aiflow webserver
-airflow webserver -p 8080
+###################################################################################
+# Setup in windows
 
-# start airflow scheduler
-airflow scheduler
-
-# add airflow user
-airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
-
-# log in wsl and pip install requirements
-wsl
-
-# make sure requirements.txt exists inside wsl
-python3 -m pip install -R requirements.txt
-
-# start the docker servers and python app
+# start the docker containers
+cd docker
 docker-compose up -d
+cd ..\
 
 # pip install
-C:\ProgramData\Anaconda3\python.exe -m pip install kafka-python==2.0.2
+[Path to your python.exe] -m pip install -R requirements.txt
 
 # create database
-C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\create_db.py"
+[Path to your python.exe] "database\create_db.py"
 
 # seed database
-C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\seed_db.py"
+[Path to your python.exe] "database\seed_db.py"
 
 # host database
-C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\host_twitter_backend.py"
-
-# run producer
-C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\kafka-produce-tweets.py"
-
-# run consumer
-C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\kafka-consumer.py"
-
-# run visualzes
-C:\ProgramData\Anaconda3\python.exe "D:\Code-Projects\University\Fall2023\CSCI469-Selected-Big-Data\RealTimeTwitter\app\create-visualzes"
+[Path to your python.exe] "database\host_twitter_backend.py"
 
 
-# inside kafka bash
+###################################################################################
+# Setup in Kafka Docker 
+# inside kafka bash in docker container
 docker exec -it kafka bash
 
 # create topic
@@ -47,11 +30,30 @@ kafka-topics --bootstrap-server kafka:9092  --create  --topic tweets
 # list topics
 kafka-topics --list --bootstrap-server kafka:9092
 
-# producer container
-docker exec -it kafka kafka-console-producer --bootstrap-server kafka:9092  --topic tweets
+###################################################################################
+# Setup in WSL
 
-# consumer container
-docker exec -it kafka kafka-console-consumer --bootstrap-server kafka:9092  --topic tweets --from-beginning
+# log in wsl and pip install requirements
+wsl
 
-# delete records by expire date
-docker exec -it kafka bin/kafka-configs.sh --alter --add-config retention.ms=10000 --bootstrap-server=0.0.0.0:9092 --topic purge-scenario && sleep 10
+# log into the Root wsl on your machine and follow the instructions in this link
+https://vivekjadhavr.medium.com/how-to-easily-install-apache-airflow-on-windows-6f041c9c80d2
+
+# after that
+# copy the file Mydag.py and requirements.txt to the \\wsl.localhost\Ubuntu\home\[your ubutnu username]\airflow\dags in your wsl system
+# then run
+
+# make sure requirements.txt exists inside wsl and cd there
+python3 -m pip install -R requirements.txt
+
+###################################################################################
+# Setup in airflow
+
+# add airflow user
+airflow users  create --role Admin --username admin --email admin --firstname admin --lastname admin --password admin
+
+# start aiflow webserver
+airflow webserver -p 8080
+
+# start airflow scheduler
+airflow scheduler

@@ -1,0 +1,600 @@
+[
+    {
+        "label": "requests",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "requests",
+        "description": "requests",
+        "detail": "requests",
+        "documentation": {}
+    },
+    {
+        "label": "os",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "os",
+        "description": "os",
+        "detail": "os",
+        "documentation": {}
+    },
+    {
+        "label": "socket",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "socket",
+        "description": "socket",
+        "detail": "socket",
+        "documentation": {}
+    },
+    {
+        "label": "HTTPServer",
+        "importPath": "http.server",
+        "description": "http.server",
+        "isExtraImport": true,
+        "detail": "http.server",
+        "documentation": {}
+    },
+    {
+        "label": "BaseHTTPRequestHandler",
+        "importPath": "http.server",
+        "description": "http.server",
+        "isExtraImport": true,
+        "detail": "http.server",
+        "documentation": {}
+    },
+    {
+        "label": "json",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "json",
+        "description": "json",
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "loads",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "dumps",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "loads",
+        "importPath": "json",
+        "description": "json",
+        "isExtraImport": true,
+        "detail": "json",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "mysql.connector",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "mysql.connector",
+        "description": "mysql.connector",
+        "detail": "mysql.connector",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadingMixIn",
+        "importPath": "socketserver",
+        "description": "socketserver",
+        "isExtraImport": true,
+        "detail": "socketserver",
+        "documentation": {}
+    },
+    {
+        "label": "threading",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "threading",
+        "description": "threading",
+        "detail": "threading",
+        "documentation": {}
+    },
+    {
+        "label": "KafkaConsumer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
+        "documentation": {}
+    },
+    {
+        "label": "KafkaProducer",
+        "importPath": "kafka",
+        "description": "kafka",
+        "isExtraImport": true,
+        "detail": "kafka",
+        "documentation": {}
+    },
+    {
+        "label": "SparkSession",
+        "importPath": "pyspark.sql",
+        "description": "pyspark.sql",
+        "isExtraImport": true,
+        "detail": "pyspark.sql",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "datetime",
+        "description": "datetime",
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "datetime",
+        "importPath": "datetime",
+        "description": "datetime",
+        "isExtraImport": true,
+        "detail": "datetime",
+        "documentation": {}
+    },
+    {
+        "label": "re",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "re",
+        "description": "re",
+        "detail": "re",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StructField",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "IntegerType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "StringType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "TimestampType",
+        "importPath": "pyspark.sql.types",
+        "description": "pyspark.sql.types",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.types",
+        "documentation": {}
+    },
+    {
+        "label": "*",
+        "importPath": "pyspark.sql.functions",
+        "description": "pyspark.sql.functions",
+        "isExtraImport": true,
+        "detail": "pyspark.sql.functions",
+        "documentation": {}
+    },
+    {
+        "label": "pandas",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "pandas",
+        "description": "pandas",
+        "detail": "pandas",
+        "documentation": {}
+    },
+    {
+        "label": "faker",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "faker",
+        "description": "faker",
+        "detail": "faker",
+        "documentation": {}
+    },
+    {
+        "label": "string",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "string",
+        "description": "string",
+        "detail": "string",
+        "documentation": {}
+    },
+    {
+        "label": "RandomSentence",
+        "importPath": "wonderwords",
+        "description": "wonderwords",
+        "isExtraImport": true,
+        "detail": "wonderwords",
+        "documentation": {}
+    },
+    {
+        "label": "RandomSentence",
+        "importPath": "wonderwords",
+        "description": "wonderwords",
+        "isExtraImport": true,
+        "detail": "wonderwords",
+        "documentation": {}
+    },
+    {
+        "label": "numpy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "numpy",
+        "description": "numpy",
+        "detail": "numpy",
+        "documentation": {}
+    },
+    {
+        "label": "PythonOperator",
+        "importPath": "airflow.operators.python",
+        "description": "airflow.operators.python",
+        "isExtraImport": true,
+        "detail": "airflow.operators.python",
+        "documentation": {}
+    },
+    {
+        "label": "BashOperator",
+        "importPath": "airflow.operators.bash",
+        "description": "airflow.operators.bash",
+        "isExtraImport": true,
+        "detail": "airflow.operators.bash",
+        "documentation": {}
+    },
+    {
+        "label": "DAG",
+        "importPath": "airflow.models.dag",
+        "description": "airflow.models.dag",
+        "isExtraImport": true,
+        "detail": "airflow.models.dag",
+        "documentation": {}
+    },
+    {
+        "label": "sleep",
+        "importPath": "time",
+        "description": "time",
+        "isExtraImport": true,
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "matplotlib.pyplot",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "matplotlib.pyplot",
+        "description": "matplotlib.pyplot",
+        "detail": "matplotlib.pyplot",
+        "documentation": {}
+    },
+    {
+        "label": "seaborn",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "seaborn",
+        "description": "seaborn",
+        "detail": "seaborn",
+        "documentation": {}
+    },
+    {
+        "label": "get_tweets",
+        "kind": 2,
+        "importPath": "app.get_tweets",
+        "description": "app.get_tweets",
+        "peekOfCode": "def get_tweets():\n    HOST = socket.gethostbyname(socket.gethostname())\n    PORT = 9999\n    url = f\"http://{HOST}:{PORT}\"\n    payload = {}\n    headers = {}\n    response = requests.request(\"POST\", url, headers=headers, data=payload)\n    return response.text",
+        "detail": "app.get_tweets",
+        "documentation": {}
+    },
+    {
+        "label": "server",
+        "kind": 6,
+        "importPath": "app.host_twitter_backend",
+        "description": "app.host_twitter_backend",
+        "peekOfCode": "class server(BaseHTTPRequestHandler):\n    def do_POST(self):\n        response_body = []\n        try:\n            tweet_ids = random.sample(range(1, max_tweets + 1), amount_of_tweets)\n            with mc.connect(\n                host=\"localhost\",\n                user=\"root\",\n                passwd=\"KOKOWaWa1Ak9\",\n                database=\"twitter\",",
+        "detail": "app.host_twitter_backend",
+        "documentation": {}
+    },
+    {
+        "label": "ThreadedHTTPServer",
+        "kind": 6,
+        "importPath": "app.host_twitter_backend",
+        "description": "app.host_twitter_backend",
+        "peekOfCode": "class ThreadedHTTPServer(ThreadingMixIn, HTTPServer):\n \"\"\"Handle requests in a separate thread.\"\"\"\nif __name__ == \"__main__\":\n    webServer = ThreadedHTTPServer((HOST, PORT), server)\n    print(f\"Server started http://{HOST}:{PORT}\")\n    try:\n        webServer.serve_forever()\n    except KeyboardInterrupt:\n        pass\n    webServer.server_close()",
+        "detail": "app.host_twitter_backend",
+        "documentation": {}
+    },
+    {
+        "label": "HOST",
+        "kind": 5,
+        "importPath": "app.host_twitter_backend",
+        "description": "app.host_twitter_backend",
+        "peekOfCode": "HOST = socket.gethostbyname(socket.gethostname())\nprint(HOST)\nPORT = 9999\nmax_users = 1000\nmax_tweets = 10000\namount_of_tweets = 100\nclass server(BaseHTTPRequestHandler):\n    def do_POST(self):\n        response_body = []\n        try:",
+        "detail": "app.host_twitter_backend",
+        "documentation": {}
+    },
+    {
+        "label": "PORT",
+        "kind": 5,
+        "importPath": "app.host_twitter_backend",
+        "description": "app.host_twitter_backend",
+        "peekOfCode": "PORT = 9999\nmax_users = 1000\nmax_tweets = 10000\namount_of_tweets = 100\nclass server(BaseHTTPRequestHandler):\n    def do_POST(self):\n        response_body = []\n        try:\n            tweet_ids = random.sample(range(1, max_tweets + 1), amount_of_tweets)\n            with mc.connect(",
+        "detail": "app.host_twitter_backend",
+        "documentation": {}
+    },
+    {
+        "label": "max_users",
+        "kind": 5,
+        "importPath": "app.host_twitter_backend",
+        "description": "app.host_twitter_backend",
+        "peekOfCode": "max_users = 1000\nmax_tweets = 10000\namount_of_tweets = 100\nclass server(BaseHTTPRequestHandler):\n    def do_POST(self):\n        response_body = []\n        try:\n            tweet_ids = random.sample(range(1, max_tweets + 1), amount_of_tweets)\n            with mc.connect(\n                host=\"localhost\",",
+        "detail": "app.host_twitter_backend",
+        "documentation": {}
+    },
+    {
+        "label": "max_tweets",
+        "kind": 5,
+        "importPath": "app.host_twitter_backend",
+        "description": "app.host_twitter_backend",
+        "peekOfCode": "max_tweets = 10000\namount_of_tweets = 100\nclass server(BaseHTTPRequestHandler):\n    def do_POST(self):\n        response_body = []\n        try:\n            tweet_ids = random.sample(range(1, max_tweets + 1), amount_of_tweets)\n            with mc.connect(\n                host=\"localhost\",\n                user=\"root\",",
+        "detail": "app.host_twitter_backend",
+        "documentation": {}
+    },
+    {
+        "label": "amount_of_tweets",
+        "kind": 5,
+        "importPath": "app.host_twitter_backend",
+        "description": "app.host_twitter_backend",
+        "peekOfCode": "amount_of_tweets = 100\nclass server(BaseHTTPRequestHandler):\n    def do_POST(self):\n        response_body = []\n        try:\n            tweet_ids = random.sample(range(1, max_tweets + 1), amount_of_tweets)\n            with mc.connect(\n                host=\"localhost\",\n                user=\"root\",\n                passwd=\"KOKOWaWa1Ak9\",",
+        "detail": "app.host_twitter_backend",
+        "documentation": {}
+    },
+    {
+        "label": "check",
+        "kind": 2,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "def check(x):\n    try:\n        return loads(x.decode(\"utf-8\"))\n    except:\n        return {\"creator\": -1}\nconsumer = KafkaConsumer(\n    topic,\n    bootstrap_servers=kafka_server,\n    auto_offset_reset=\"earliest\",\n    group_id=None,",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "clean",
+        "kind": 2,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "def clean(row):\n    date = row[\"date\"]\n    topic = row[\"topic\"]\n    text = row[\"text\"]\n    likes = row[\"likes\"]\n    shares = row[\"shares\"]\n    creator_name = row[\"creator name\"]\n    creator_email = row[\"creator email\"]\n    creator_followers = row[\"creator followers\"]\n    creator_following = row[\"creator following\"]",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "spark",
+        "kind": 5,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "spark = SparkSession.builder.appName(\"App\").getOrCreate()\nkafka_server = [\"localhost:9092\"]\ntopic = \"tweets\"\ndef check(x):\n    try:\n        return loads(x.decode(\"utf-8\"))\n    except:\n        return {\"creator\": -1}\nconsumer = KafkaConsumer(\n    topic,",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "kafka_server",
+        "kind": 5,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "kafka_server = [\"localhost:9092\"]\ntopic = \"tweets\"\ndef check(x):\n    try:\n        return loads(x.decode(\"utf-8\"))\n    except:\n        return {\"creator\": -1}\nconsumer = KafkaConsumer(\n    topic,\n    bootstrap_servers=kafka_server,",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "topic",
+        "kind": 5,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "topic = \"tweets\"\ndef check(x):\n    try:\n        return loads(x.decode(\"utf-8\"))\n    except:\n        return {\"creator\": -1}\nconsumer = KafkaConsumer(\n    topic,\n    bootstrap_servers=kafka_server,\n    auto_offset_reset=\"earliest\",",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "consumer",
+        "kind": 5,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "consumer = KafkaConsumer(\n    topic,\n    bootstrap_servers=kafka_server,\n    auto_offset_reset=\"earliest\",\n    group_id=None,\n    value_deserializer=check,\n)\nbatch = []\nschema = StructType(\n    [",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "batch",
+        "kind": 5,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "batch = []\nschema = StructType(\n    [\n        StructField(\"date\", TimestampType(), True),\n        StructField(\"topic\", StringType(), True),\n        StructField(\"text\", StringType(), True),\n        StructField(\"likes\", IntegerType(), True),\n        StructField(\"shares\", IntegerType(), True),\n        StructField(\"creator name\", StringType(), True),\n        StructField(\"creator email\", StringType(), True),",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "schema",
+        "kind": 5,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "schema = StructType(\n    [\n        StructField(\"date\", TimestampType(), True),\n        StructField(\"topic\", StringType(), True),\n        StructField(\"text\", StringType(), True),\n        StructField(\"likes\", IntegerType(), True),\n        StructField(\"shares\", IntegerType(), True),\n        StructField(\"creator name\", StringType(), True),\n        StructField(\"creator email\", StringType(), True),\n        StructField(\"creator followers\", StringType(), True),",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "tweets_location",
+        "kind": 5,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "tweets_location = r\"\\\\wsl.localhost\\Ubuntu\\home\\galal\\airflow\\dags\\data.csv\"\nemail_regex = r\"\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,7}\\b\"\ndef clean(row):\n    date = row[\"date\"]\n    topic = row[\"topic\"]\n    text = row[\"text\"]\n    likes = row[\"likes\"]\n    shares = row[\"shares\"]\n    creator_name = row[\"creator name\"]\n    creator_email = row[\"creator email\"]",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "email_regex",
+        "kind": 5,
+        "importPath": "app.kafka-consumer",
+        "description": "app.kafka-consumer",
+        "peekOfCode": "email_regex = r\"\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,7}\\b\"\ndef clean(row):\n    date = row[\"date\"]\n    topic = row[\"topic\"]\n    text = row[\"text\"]\n    likes = row[\"likes\"]\n    shares = row[\"shares\"]\n    creator_name = row[\"creator name\"]\n    creator_email = row[\"creator email\"]\n    creator_followers = row[\"creator followers\"]",
+        "detail": "app.kafka-consumer",
+        "documentation": {}
+    },
+    {
+        "label": "generate_tweet",
+        "kind": 2,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "def generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()\n    random_seconds = random.uniform(0, total_seconds)\n    random_datetime = lower_limit + datetime.timedelta(seconds=random_seconds)\n    topic = random.choices(topics, weights=[0.5, 0.1, 0.3, 0.1, 0.1, 0.1])[0]\n    likes = random.choices(likess, weights=likess_prob)[0]\n    shares = random.choices(sharess, weights=sharess_prob)[0]\n    text = fake.text()\n    mentions = random.sample(range(1, max_users + 1), random.randint(0, 1))\n    if len(mentions) != 0:",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "generate_user",
+        "kind": 2,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "def generate_user():\n    name = fake.name()\n    email = fake.email()\n    followers = random.randint(0, max_users)\n    following = random.randint(0, max_users)\n    return name, email, followers, following\nwith mc.connect(\n    host=\"localhost\", user=\"root\", passwd=\"KOKOWaWa1Ak9\", database=\"twitter\"\n) as db:\n    cursor = db.cursor()",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "s",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "s = RandomSentence()\nfake = faker.Faker()\nmax_users = 1000\nmax_tweets = 10000\nlower_limit = datetime.datetime(2024, 1, 1)\nupper_limit = datetime.datetime(2002, 1, 1)\nlikess = list(range(1, 420))\nlikess_prob = list(np.linspace(0.9, 0.1, len(likess)))\nsharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "fake",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "fake = faker.Faker()\nmax_users = 1000\nmax_tweets = 10000\nlower_limit = datetime.datetime(2024, 1, 1)\nupper_limit = datetime.datetime(2002, 1, 1)\nlikess = list(range(1, 420))\nlikess_prob = list(np.linspace(0.9, 0.1, len(likess)))\nsharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "max_users",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "max_users = 1000\nmax_tweets = 10000\nlower_limit = datetime.datetime(2024, 1, 1)\nupper_limit = datetime.datetime(2002, 1, 1)\nlikess = list(range(1, 420))\nlikess_prob = list(np.linspace(0.9, 0.1, len(likess)))\nsharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "max_tweets",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "max_tweets = 10000\nlower_limit = datetime.datetime(2024, 1, 1)\nupper_limit = datetime.datetime(2002, 1, 1)\nlikess = list(range(1, 420))\nlikess_prob = list(np.linspace(0.9, 0.1, len(likess)))\nsharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "lower_limit",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "lower_limit = datetime.datetime(2024, 1, 1)\nupper_limit = datetime.datetime(2002, 1, 1)\nlikess = list(range(1, 420))\nlikess_prob = list(np.linspace(0.9, 0.1, len(likess)))\nsharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()\n    random_seconds = random.uniform(0, total_seconds)",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "upper_limit",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "upper_limit = datetime.datetime(2002, 1, 1)\nlikess = list(range(1, 420))\nlikess_prob = list(np.linspace(0.9, 0.1, len(likess)))\nsharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()\n    random_seconds = random.uniform(0, total_seconds)\n    random_datetime = lower_limit + datetime.timedelta(seconds=random_seconds)",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "likess",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "likess = list(range(1, 420))\nlikess_prob = list(np.linspace(0.9, 0.1, len(likess)))\nsharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()\n    random_seconds = random.uniform(0, total_seconds)\n    random_datetime = lower_limit + datetime.timedelta(seconds=random_seconds)\n    topic = random.choices(topics, weights=[0.5, 0.1, 0.3, 0.1, 0.1, 0.1])[0]",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "likess_prob",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "likess_prob = list(np.linspace(0.9, 0.1, len(likess)))\nsharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()\n    random_seconds = random.uniform(0, total_seconds)\n    random_datetime = lower_limit + datetime.timedelta(seconds=random_seconds)\n    topic = random.choices(topics, weights=[0.5, 0.1, 0.3, 0.1, 0.1, 0.1])[0]\n    likes = random.choices(likess, weights=likess_prob)[0]",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "sharess",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "sharess = list(range(1, 580))\nsharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()\n    random_seconds = random.uniform(0, total_seconds)\n    random_datetime = lower_limit + datetime.timedelta(seconds=random_seconds)\n    topic = random.choices(topics, weights=[0.5, 0.1, 0.3, 0.1, 0.1, 0.1])[0]\n    likes = random.choices(likess, weights=likess_prob)[0]\n    shares = random.choices(sharess, weights=sharess_prob)[0]",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "sharess_prob",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "sharess_prob = list(np.linspace(0.9, 0.1, len(sharess)))\ntopics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()\n    random_seconds = random.uniform(0, total_seconds)\n    random_datetime = lower_limit + datetime.timedelta(seconds=random_seconds)\n    topic = random.choices(topics, weights=[0.5, 0.1, 0.3, 0.1, 0.1, 0.1])[0]\n    likes = random.choices(likess, weights=likess_prob)[0]\n    shares = random.choices(sharess, weights=sharess_prob)[0]\n    text = fake.text()",
+        "detail": "database.seed_db",
+        "documentation": {}
+    },
+    {
+        "label": "topics",
+        "kind": 5,
+        "importPath": "database.seed_db",
+        "description": "database.seed_db",
+        "peekOfCode": "topics = [\"food\", \"sports\", \"education\", \"games\", \"home\", \"cooking\"]\ndef generate_tweet():\n    total_seconds = (upper_limit - lower_limit).total_seconds()\n    random_seconds = random.uniform(0, total_seconds)\n    random_datetime = lower_limit + datetime.timedelta(seconds=random_seconds)\n    topic = random.choices(topics, weights=[0.5, 0.1, 0.3, 0.1, 0.1, 0.1])[0]\n    likes = random.choices(likess, weights=likess_prob)[0]\n    shares = random.choices(sharess, weights=sharess_prob)[0]\n    text = fake.text()\n    mentions = random.sample(range(1, max_users + 1), random.randint(0, 1))",
+        "detail": "database.seed_db",
+        "documentation": {}
+    }
+]
